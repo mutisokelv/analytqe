@@ -34,35 +34,37 @@ Table of contents
         font-style: normal;
     }
     
-    @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
     body,
     textarea {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-family: 'Roboto', sans-serif!important;
+        font-size: 16px!important;
         line-height: 25px;
         padding: 0;
         margin: 0;
     }
     
-    body>#preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #fff;
-        z-index: 99995;
+    .modal-body {
+        font-family: 'Roboto', sans-serif!important;
+        font-size: 16px!important;
+        line-height: 25px;
     }
     
-    #preloader:before {
-        content: url(../media/loader.svg);
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        top: 50%;
-        left: 50%;
-        margin-left: -15px;
-        margin-top: -15px;
+    .modal-body p {
+        font-weight: 400;
+    }
+    
+    .btn-success {
+        background-color: #C71F3C!important;
+        border-color: #C71F3C!important;
+    }
+    
+    .btn-success:hover {
+        color: #C71F3C!important;
+        background-color: white!important;
+    }
+    
+    .form-control:hover {
+        color: #C71F3C;
     }
     
     body.no-transactions * {
@@ -852,7 +854,7 @@ GLOBAL
     
     .dropdown ul li:hover>a,
     nav:not(.menu-transparent) .menu-cnt>ul>li:hover>a {
-        color: #FFF;
+        color: rgb(0, 0, 0);
     }
     
     .logo-retina {
@@ -939,7 +941,7 @@ GLOBAL
         height: 50px;
         line-height: 50px;
         padding: 0 15px;
-        font-size: 13px;
+        font-size: 16px;
         display: block;
     }
     
@@ -5934,17 +5936,16 @@ Inverted responsive classes
         text-align: right;
         width: 100%;
         font-size: 40px;
-        font-family: 'Lato', sans-serif;
         color: black;
         line-height: 65px;
-        font-weight: 300!important;
+        font-family: 'Josefin Sans', sans-serif;
         /* padding-top: 10%; */
+        text-decoration: underline;
     }
     
     .titlehdd {
         width: 100%;
         font-size: 40px;
-        font-family: 'Lato', sans-serif;
         color: black;
         line-height: 65px;
         font-weight: 300!important;
@@ -5952,11 +5953,10 @@ Inverted responsive classes
     }
     
     p.desc2345 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 45px;
         text-align: left;
         color: rgba(0, 0, 0, 0.808)!important;
-        font-family: 'Lato', sans-serif;
     }
     
     .card {
@@ -6026,6 +6026,7 @@ Inverted responsive classes
     .circle {
         border: solid 1px rgba(0, 0, 0, 0.199);
         width: 72px;
+        background-color: white;
     }
     
     .col-md-4 {
@@ -6429,3 +6430,7 @@ Inverted responsive classes
         width: 100%;
     }
     /* partners */
+    
+    .no:hover {
+        text-decoration: none!important;
+    }
