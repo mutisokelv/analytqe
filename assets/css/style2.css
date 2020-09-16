@@ -1326,7 +1326,7 @@ MENU RIGHT POSITION - NAVIGATION MENU
     }
     
     nav.align-right .menu-cnt {
-        float: none;
+        float: right;
     }
     
     nav.align-right .menu-cnt .clear {
@@ -5924,8 +5924,22 @@ Inverted responsive classes
             padding-bottom: 150px!important;
         }
         .head {
-            padding-top: 50px;
+            font-size: 25px;
+            line-height: 37px;
         }
+        .cost {
+            text-align: center!important;
+        }
+        .coster {
+            text-align: center!important;
+        }
+        .container {
+            padding-bottom: 15px!important;
+        }
+    }
+    
+    .coster {
+        text-align: right;
     }
     
     .upl {
