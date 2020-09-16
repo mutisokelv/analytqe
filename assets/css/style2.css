@@ -54,7 +54,7 @@ Table of contents
     }
     
     .navbar-collapse.collapse.in {
-        display: inline-block;
+        display: none!important;
     }
     
     .btn-success {
@@ -5229,7 +5229,6 @@ Medium devices (tablets, less than 992px)
             overflow: hidden;
             position: absolute;
             top: 100%;
-            background: #FFF;
             left: 0;
             width: 100%;
             transition: height .5s;
@@ -5426,6 +5425,10 @@ Small devices (landscape phones, less than 768px)
     Responsive classes
     -------------------------------------------------------------------
     */
+        .active {
+            text-decoration: underline;
+            color: black!important;
+        }
         .no-margin-sm {
             margin: 0 !important;
         }
@@ -5919,6 +5922,9 @@ Inverted responsive classes
         }
         .steps-section {
             padding-bottom: 150px!important;
+        }
+        .head {
+            padding-top: 50px;
         }
     }
     
