@@ -53,6 +53,10 @@ Table of contents
         font-weight: 400;
     }
     
+    .navbar-collapse.collapse.in {
+        display: inline-block;
+    }
+    
     .btn-success {
         background-color: #C71F3C!important;
         border-color: #C71F3C!important;

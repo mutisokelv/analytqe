@@ -32,6 +32,7 @@
     <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+
 </head>
 
 <body>
@@ -39,15 +40,15 @@
     <!-- ************************************ NAV **************************** -->
 
 
-    <nav class="menu-classic menu-fixed menu-one-page align-right navbar navbar-default" data-menu-anima="fade-bottom" data-scroll-detect="true" role="navigation" style="background-color: white;">
+    <nav class="menu-classic menu-fixed menu-one-page align-right navbar navbar-default " data-menu-anima="fade-bottom" data-scroll-detect="true" role="navigation" style="background-color: white;">
         <div class="container">
             <div class="menu-brand">
                 <a href="index.html">
                     <img class="logo-default" src="assets/img/analytqe-wide.png" alt="logo" height="40" />
                 </a>
             </div>
-            <i class="menu-btn"></i>
-            <div class="menu-cnt" style="font-size: 15px">
+            <i class="menu-btn " data-toggle="collapse" data-target="#nav-collapse" aria-expanded="true"></i>
+            <div class="menu-cnt collapse navbar-collapse" style="font-size: 15px; float: right;" id="nav-collapse">
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -64,6 +65,7 @@
             </div>
         </div>
     </nav>
+
 
 
     <!-- ************************************ HOME **************************** -->
@@ -494,7 +496,7 @@
                 </div>
                 <div class="modal-body ">
                     <form role="form " method="post " id="reused_form ">
-                        <p> Leave your contact details with us, we’ll hit you up when the feature is available.
+                        <p> An Africa focused platform enabling small and medium enterprises access cutting edge technology and skills while simultaneously connecting their solutions to potential clients through co-creation opportunities.
                         </p>
                         <div class="form-group ">
                             <label for="name "> Name:</label>
@@ -525,7 +527,7 @@
     </div>
 
     <!--START: FOOTER-->
-    <footer class="footer section section-light text-center " id="contact " style="background-color: black; color: white; padding-top: 40px; ">
+    <section class="footer section section-light text-center " id="contact " style="background-color: black; color: white; padding-top: 40px; ">
         <div class="row " style="width: 100%; ">
             <div class="col-md-4 " style="padding-top: 40px; ">
                 <img class=" " src="assets/img/white text.png " width=200 ">
@@ -534,7 +536,7 @@
                 <div class="col-md-4 ">
                     <p class="head hidden-sm " style="color: white; font-size: 60px; padding-top: 10px; padding-bottom: 20px; ">Let's get in <br> Touch </p>
                     <br> <a href="http://eepurl.com/hc9kxn " target="_blank "><button type="button " class="btn btn-xs btn-circle "  style="margin-top: 30px; color: white; background-color: #C71F3C; border-radius: 5px; font-size: larger; padding: 10px;
-                    width: 100%; ">Join as a solver</button></a>
+                    width: 100%; ">Contact Us</button></a>
 
                 </div>
                 <div class="col-md-4 " style=" padding-top: 30px; ">
@@ -563,11 +565,12 @@
                     </script>
                     | All Right Reserved</p>
             </div>
-            </footer>
+            </section>
             <!--END: FOOTER-->
 
             <!-- *********************** scripts *************************** -->
             <script src="form.js "></script>
+            <script src="assets/scripts/main.js "></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
